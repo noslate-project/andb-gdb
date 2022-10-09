@@ -1,0 +1,16 @@
+diff -Naur gdb-10.2.org/bfd/elf-bfd.h gdb-10.2/bfd/elf-bfd.h
+--- gdb-10.2.org/bfd/elf-bfd.h	2021-04-25 12:06:26.000000000 +0800
++++ gdb-10.2/bfd/elf-bfd.h	2022-01-25 22:34:41.000000000 +0800
+@@ -22,6 +22,7 @@
+ #ifndef _LIBELF_H_
+ #define _LIBELF_H_ 1
+ 
++#include <string.h>
+ #include "elf/common.h"
+ #include "elf/external.h"
+ #include "elf/internal.h"
+diff -Naur gdb-10.2.org/intl/VERSION gdb-10.2/intl/VERSION
+--- gdb-10.2.org/intl/VERSION	2020-09-13 10:33:41.000000000 +0800
++++ gdb-10.2/intl/VERSION	1970-01-01 08:00:00.000000000 +0800
+@@ -1 +0,0 @@
+-GNU gettext library from gettext-0.12.1

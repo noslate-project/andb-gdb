@@ -1,0 +1,4 @@
+#!/bin/bash
+
+d=$(dirname $(dirname "$0"))
+PYTHONHOME=$d x86_64-linux-gnu-gdb $*
