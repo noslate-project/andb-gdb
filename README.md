@@ -7,6 +7,7 @@ Here is the pre-compiled GDB tool for debugging x86_64 corefile out-of-the-box u
 * arm64-Darwin: m1/m2 apple chip.
 * x86_64-Dwarwin: apple intel chip.
 * x86_64-Linux: update for earlier release Linux, CentOS 7 etc. 
+* aarch64-Linux: CentOS 7 docker running on m1/m2 apple chip. 
 
 ## How to use?
 
